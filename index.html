@@ -250,7 +250,8 @@
                     type="text" 
                     name="user-name" 
                     id="user-name"
-                    placeholder="Ім’я">
+                    placeholder="Ім’я"
+                    required>
                 </div>
                 <div class="form-field">
                     <label class="form-label visually-hidden" for="user-tel">Телефон</label>
@@ -259,7 +260,8 @@
                     type="text" 
                     name="user-tel" 
                     id="user-tel"
-                    placeholder="Телефон">
+                    placeholder="Телефон"
+                    >
                 </div>
                 <div class="form-field">
                     <label class="form-label visually-hidden" for="user-email">Електронна пошта</label>
@@ -268,7 +270,19 @@
                     type="text" 
                     name="user-email" 
                     id="user-email"
+                    required
                     placeholder="Електронна пошта">
+                </div>
+                <div class="checkbox">
+                    <input 
+                    class="checkbox-input visually-hidden"
+                    type="checkbox"
+                    id="terms-conditions"
+                    name="terms-conditions">
+                    <label class="checkbox-label"
+                    for="terms-conditions">
+                        Я точно погоджуюсь з політикою конфіденційності
+                    </label>
                 </div>
                 <button type="submit" class="button form-button">Замовити дзвінок</button>
                 <p class="form-terms">Натискаючи на кнопку я погоджуюсь з 
